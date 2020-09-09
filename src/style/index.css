@@ -21,6 +21,7 @@ ul {
 
 header {
   height: 80px;
+  margin-bottom: 20px;
 }
 
 .navigation-link {
@@ -30,4 +31,32 @@ header {
   background-color: black;
   color: white;
   height: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-sentence {
+  color: grey;
+  margin-bottom: 0;
+}
+
+.footer-author {
+  color: purple;
+  text-decoration: underline;
+}
+
+.footer-link {
+  margin-top: 0;
+}
+
+.footer-link a {
+  color: purple;
 }
