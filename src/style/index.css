@@ -96,11 +96,47 @@ main {
 }
 
 .article-details-link {
-  color: #3366ff;
+  color: #4169e1;
+}
+
+.signin {
+  flex-basis: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .signin-form {
-  flex-basis: 20%;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.signin-email,
+.signin-password {
+  height: 40px;
+  width: 90%;
+}
+
+.signin-password {
+  margin-bottom: 10px;
+}
+
+.signin-checkbox {
+  margin-bottom: 20px;
+}
+
+.signin-button {
+  width: 90%;
+  background-color: #4169e1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
 }
 
 footer {
