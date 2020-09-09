@@ -142,11 +142,13 @@ main {
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #f0f0f0;
 }
 
 .footer-content {
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .footer-sentence {
@@ -161,8 +163,5 @@ footer {
 
 .footer-link {
   margin-top: 0;
-}
-
-.footer-link a {
   color: purple;
 }
