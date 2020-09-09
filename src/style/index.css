@@ -41,10 +41,30 @@ main {
 
 .about-archives {
   flex-basis: 15%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.about {
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.about-title {
+  font-style: italic;
+}
+
+.archive-title {
+  font-style: italic;
+}
+
+.archive-link {
+  color: purple;
 }
 
 .section-article {
-  flex-basis: 70%;
+  flex-basis: 60%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -80,7 +100,7 @@ main {
 }
 
 .signin-form {
-  flex-basis: 15%;
+  flex-basis: 20%;
 }
 
 footer {
