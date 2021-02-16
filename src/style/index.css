@@ -7,6 +7,10 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 * {
@@ -20,7 +24,8 @@ ul {
 }
 
 .navigation-bar {
-  height: 80px;
+  flex-basis: 100%;
+  height: 10%;
   margin-bottom: 20px;
 }
 
@@ -31,12 +36,6 @@ ul {
   background-color: black;
   color: white;
   height: 100%;
-}
-
-main {
-  display: flex;
-  justify-content: space-around;
-  height: 800px;
 }
 
 .about-archives {
@@ -66,18 +65,24 @@ main {
 .section-article {
   flex-basis: 60%;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.section-article.column {
+  display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  margin-right: 10px;
 }
 
 .article-area {
-  width: 48%;
+  /* width: 48%; */
   margin-bottom: 20px;
   border: 1px solid lightgray;
 }
 
-.article-area:nth-child(2) {
-  order: 1;
+.article-area:nth-child(3) {
+  align-self: flex-start;
 }
 
 .article-thumbnail {
@@ -139,21 +144,19 @@ main {
   height: 40px;
 }
 
-footer {
+.footer {
+  flex-basis: 100%;
+  height: 10%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #f0f0f0;
 }
 
-.footer-content {
-  text-align: center;
-  margin-bottom: 16px;
-}
-
 .footer-sentence {
   color: grey;
-  margin-bottom: 0;
+  margin-bottom: 3px;
 }
 
 .footer-author {
